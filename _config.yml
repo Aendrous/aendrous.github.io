@@ -6,6 +6,8 @@ remote_theme: pages-themes/hacker@v0.2.0
 # Chirpy	22 цветовые схемы, RSS, комментарии	Для профессионального блога
 plugins:
 - jekyll-remote-theme
-title: Айтишник о книгах
+# Настройки URL
+permalink: /:year/:month/:day/:title/
+title: Айтишник хочет пофилосовствовать
 description: Исследования о книгах, тайных обществах и скрытых смыслах
 author: Андрей Фетисов
