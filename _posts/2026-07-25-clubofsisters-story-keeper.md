@@ -23,6 +23,9 @@ categories: [games, visual-novel]
 
 ## Скачать APK
 
-[Последний релиз Android](https://github.com/Aendrous/ClubOfSisters-releases/releases/latest) — Android 8.0+ (API 26).
+**Актуально:** [ClubOfSisters 0.2.1 (build 16)](https://github.com/Aendrous/ClubOfSisters-releases/releases/tag/v0.2.1) — Хранитель историй в игре, GigaChat, история из новеллы, удаление продолжений, иконка без бейджа Unity.
 
-Это направление разработки, не обещание конкретной даты в магазине. Пилоты начинаем с реальных черновиков.
+Последний релиз всегда здесь: [releases/latest](https://github.com/Aendrous/ClubOfSisters-releases/releases/latest). Android 8.0+ (API 26).
+
+Подробный анонс: [ClubOfSisters 0.2.1](/2026/07/26/clubofsisters-0-2-1/).
+
