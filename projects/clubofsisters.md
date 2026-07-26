@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "ClubOfSisters — веха проекта: Хранитель на телефоне"
-date: 2026-07-26 12:00:00 +0300
-categories: [games, clubofsisters, project]
 permalink: /projects/clubofsisters/
 ---
 

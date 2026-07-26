@@ -11,3 +11,6 @@ permalink: /:year/:month/:day/:title/
 title: Айтишник хочет пофилосовствовать
 description: Исследования о книгах, тайных обществах и скрытых смыслах
 author: Андрей Фетисов
+
+timezone: Europe/Moscow
+future: true
