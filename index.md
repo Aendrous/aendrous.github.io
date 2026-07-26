@@ -7,12 +7,16 @@ title: Главная
 
 Скоро здесь будут публикации о расследованиях, элитах и скрытых смыслах.
 
-## ClubOfSisters
+## Проект: ClubOfSisters
 
-Мобильная визуальная новелла: [скачать APK](https://github.com/Aendrous/ClubOfSisters-releases/releases/latest) · [Хранитель историй](/2026/07/25/clubofsisters-story-keeper/)
+Русскоязычная визуальная новелла для Android и **Хранитель историй** (продолжение канона с GigaChat на телефоне).
+
+- **[Веха проекта — что сделано и что дальше](/projects/clubofsisters/)**
+- [Скачать APK](https://github.com/Aendrous/ClubOfSisters-releases/releases/latest)
+- [Ранний анонс Хранителя](/2026/07/25/clubofsisters-story-keeper/)
 
 ## Последние статьи
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:8 %}
 - [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%d.%m.%Y" }}
 {% endfor %}
