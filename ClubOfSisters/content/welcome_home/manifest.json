@@ -1,0 +1,60 @@
+{
+  "novelId": "welcome_home",
+  "version": 1,
+  "yarnStartNode": "ДоброПожаловатьДомой_Начало",
+  "sprites": [
+    {
+      "id": "Риган",
+      "path": "sprites/Риган.png"
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "bg_welcome_church",
+      "path": "backgrounds/bg_welcome_church.jpg"
+    },
+    {
+      "id": "bg_welcome_church_yard",
+      "path": "backgrounds/bg_welcome_church_yard.jpg"
+    },
+    {
+      "id": "bg_welcome_rain_street",
+      "path": "backgrounds/bg_welcome_rain_street.jpg"
+    }
+  ],
+  "audio": [
+    {
+      "id": "welcome_chapel",
+      "path": "audio/welcome_chapel.ogg"
+    },
+    {
+      "id": "welcome_rain",
+      "path": "audio/welcome_rain.ogg"
+    },
+    {
+      "id": "welcome_rain_sfx",
+      "path": "audio/welcome_rain_sfx.ogg"
+    },
+    {
+      "id": "welcome_tension",
+      "path": "audio/welcome_tension.ogg"
+    },
+    {
+      "id": "welcome_witcher",
+      "path": "audio/welcome_witcher.ogg"
+    }
+  ],
+  "covers": [
+    {
+      "id": "cover",
+      "path": "covers/welcome_home.png"
+    }
+  ],
+  "yarn": [
+    {
+      "id": "Chapter1_Дождь_и_церковь",
+      "path": "yarn/Chapter1_Дождь_и_церковь.yarn",
+      "startNode": "ДоброПожаловатьДомой_Начало"
+    }
+  ]
+}
