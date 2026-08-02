@@ -1,0 +1,105 @@
+title: БутонСакуры_Глава18_Начало
+tags: бутон_сакуры, глава18
+author: Aendrous
+---
+// ГЛАВА 18. ЗЕРКАЛЬНОЕ ОЗЕРО — МОСКВА
+
+<<setBackground ButonMoscowSnow>>
+<<setMusic ButonArrival>>
+<<stopVoice>>
+<<hideCharacter all>>
+<<setCharacter Лена left>>
+<<setCharacter Сё right>>
+
+Рассказчик: Шереметьево. Сё — с чемоданом, седина у виска, те же глаза.
+
+Сё: Скучал.
+Лена: Я тоже.
+
+<<jump БутонСакуры_Глава18_Кафе>>
+===
+title: БутонСакуры_Глава18_Кафе
+---
+<<setBackground ButonMoscowEmbankment>>
+<<setMusic ButonTea>>
+<<setCharacter Лена left>>
+<<setCharacter Сё right>>
+
+Рассказчик: Кафе на Ленинградском. Полный рассказ — Мэй, ключ, вина, двадцать лет.
+
+Сё: После озера — обещаю. Не «когда будешь готова». Когда выйдешь.
+
+<<jump БутонСакуры_Глава18_Зал>>
+===
+title: БутонСакуры_Глава18_Зал
+---
+<<setBackground ButonMoscowDance>>
+<<setMusic ButonDance>>
+<<setCharacter Лена left>>
+<<setCharacter Сё right>>
+
+Рассказчик: Пустой зал Серпуховской. Парный танец. Контакт без данжа.
+
+Лена: Ты дрожишь.
+Сё: Не от холода.
+
+<<jump БутонСакуры_Глава18_Озеро>>
+===
+title: БутонСакуры_Глава18_Озеро
+---
+<<setBackground ButonMoscowCollector>>
+<<setMusic ButonCollectorDeep>>
+<<setCharacter Лена left>>
+<<setCharacter Сё right>>
+<<setCharacter Лин center>>
+
+Рассказчик: Коллектор под Москвой-рекой. Лин вскрывает замок. Круглая камера. Чёрный бассейн.
+
+Лин: «Тихая гладь». Ключ Мэй — на дне.
+
+-> «Войду одна — это мой ключ»
+    <<set $bud_inner_calm += 1>>
+    <<jump БутонСакуры_Глава18_Данж>>
+-> «Сё, держи нить — не отпускай»
+    <<set $bud_trust_lin += 1>>
+    <<jump БутонСакуры_Глава18_Данж>>
+-> «Спросить дух Мэй: прости ли ты его»
+    <<set $bud_curiosity += 1>>
+    <<jump БутонСакуры_Глава18_Мэй>>
+===
+title: БутонСакуры_Глава18_Мэй
+---
+<<setBackground ButonMirrorLake>>
+<<setMusic ButonDungeonOwl>>
+<<setCharacter Лена left>>
+<<setCharacter Мэй_spirit center>>
+
+Мэй: Я не помню. Но тело помнит. Прости — не слово. Танец.
+Лена: Я танцую за нас обеих.
+
+<<jump БутонСакуры_Глава18_Данж>>
+===
+title: БутонСакуры_Глава18_Данж
+---
+<<setBackground ButonMirrorLake>>
+<<setMusic ButonDungeon>>
+<<setCharacter Лена left>>
+<<setCharacter Мэй_spirit center>>
+
+Рассказчик: Три зеркальных «я»: офис, утонувшая, забывшая танец. Нефритовый ключ — принят.
+
+Сё: Дыши. Я здесь.
+
+<<addResearch 8>>
+<<jump БутонСакуры_Глава18_Конец>>
+===
+title: БутонСакуры_Глава18_Конец
+---
+<<recordEnding БутонСакуры_Глава18_Конец>>
+<<setBackground ButonSmotritelStudy>>
+<<hideCharacter all>>
+
+Рассказчик: Три ключа собраны. Сломанный ключ Сё — следующий.
+
+<<showChapterComplete 18>>
+===

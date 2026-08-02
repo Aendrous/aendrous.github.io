@@ -1,0 +1,99 @@
+title: БутонСакуры_Глава16_Начало
+tags: бутон_сакуры, глава16
+author: Aendrous
+---
+// ГЛАВА 16. КТО ДЁРГАЕТ НИТИ
+
+<<setBackground ButonMoscowSnow>>
+<<setMusic ButonDungeonOwl>>
+<<stopVoice>>
+<<hideCharacter all>>
+<<setCharacter Лена left>>
+
+Рассказчик: Три дня изоляции. Схемы на стенах. Иероглиф 蕾. Конверт: адрес Смотрителя.
+
+<<jump БутонСакуры_Глава16_Смотритель>>
+===
+title: БутонСакуры_Глава16_Смотритель
+---
+<<setBackground ButonSmotritelStudy>>
+<<setMusic ButonTea>>
+<<setCharacter Лена left>>
+<<setCharacter Смотритель right>>
+
+Рассказчик: Квартира Смотрителя. Чай, карты, старые книги.
+
+Смотритель: Ты — антенна, девочка. Порталы слышат тебя. Москва полна «тонких мест».
+Лена: Кто вы?
+Смотритель: Тот, кто смотрит, когда хранители спят.
+
+-> «Покажите тонкие места — я готова охотиться»
+    <<set $bud_curiosity += 1>>
+    <<jump БутонСакуры_Глава16_Охота>>
+-> «Мне нужен Лин — не пойду одна»
+    <<set $bud_trust_lin += 1>>
+    <<jump БутонСакуры_Глава16_Лин>>
+-> «Сначала отдохну — ци на нуле»
+    <<set $bud_inner_calm += 1>>
+    <<jump БутонСакуры_Глава16_Пауза>>
+===
+title: БутонСакуры_Глава16_Лин
+---
+<<setBackground ButonSmotritelStudy>>
+<<setMusic ButonTea>>
+<<setCharacter Лена left>>
+<<setCharacter Лин right>>
+
+Лин: Я здесь. Не как хранитель — как друг.
+Лена: Тогда идём вместе.
+
+<<jump БутонСакуры_Глава16_Охота>>
+===
+title: БутонСакуры_Глава16_Пауза
+---
+<<setBackground ButonMoscowSnow>>
+<<setMusic ButonMoscowMelancholy>>
+<<setCharacter Лена left>>
+
+Лена: Ещё один день. Потом — охота.
+
+<<jump БутонСакуры_Глава16_Охота>>
+===
+title: БутонСакуры_Глава16_Охота
+---
+<<setBackground ButonKeeperHall>>
+<<setMusic ButonDungeon>>
+<<setCharacter Лена left>>
+<<setCharacter Лин right>>
+
+Рассказчик: Две недели. Большой театр — Эльмира. Цех — Денис. Таганка — Михаил Юрьевич. Заброшенный ДК — Аня.
+
+Рассказчик: Новая волна. Потомки кланов. Четверо у Смотрителя.
+
+Лин: Урок в темноте. Честный танец — без зеркала.
+
+<<addResearch 5>>
+<<jump БутонСакуры_Глава16_Компас>>
+===
+title: БутонСакуры_Глава16_Компас
+---
+<<setBackground ButonSmotritelStudy>>
+<<setMusic ButonDungeonOwl>>
+<<setCharacter Лена left>>
+
+Рассказчик: Ночь. Компас замирает на юго-восток. Воронеж.
+
+Лена: Там кто-то ждёт.
+
+<<jump БутонСакуры_Глава16_Конец>>
+===
+title: БутонСакуры_Глава16_Конец
+---
+<<recordEnding БутонСакуры_Глава16_Конец>>
+<<setBackground ButonWaterTower>>
+<<hideCharacter all>>
+
+Рассказчик: Завтра — одна. Туда, где компас указывает.
+
+<<showChapterComplete 16>>
+===

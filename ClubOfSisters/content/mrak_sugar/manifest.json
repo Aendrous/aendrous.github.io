@@ -1,0 +1,59 @@
+{
+  "novelId": "mrak_sugar",
+  "version": 2,
+  "yarnStartNode": "МракИСахар_Начало",
+  "sprites": [
+    {
+      "id": "Демиан",
+      "path": "sprites/Демиан.png"
+    },
+    {
+      "id": "Охотник",
+      "path": "sprites/Охотник.png"
+    },
+    {
+      "id": "Ума",
+      "path": "sprites/Ума.png"
+    },
+    {
+      "id": "Ума_compassion",
+      "path": "sprites/Ума_compassion.png"
+    },
+    {
+      "id": "Ума_independent",
+      "path": "sprites/Ума_independent.png"
+    },
+    {
+      "id": "Ума_resolve",
+      "path": "sprites/Ума_resolve.png"
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "bg_campfire_road",
+      "path": "backgrounds/bg_campfire_road.jpg"
+    },
+    {
+      "id": "bg_grave_wastes",
+      "path": "backgrounds/bg_grave_wastes.jpg"
+    },
+    {
+      "id": "bg_tavern_hearth",
+      "path": "backgrounds/bg_tavern_hearth.jpg"
+    }
+  ],
+  "audio": [],
+  "covers": [
+    {
+      "id": "cover",
+      "path": "covers/mrak_sugar.png"
+    }
+  ],
+  "yarn": [
+    {
+      "id": "Chapter1_Колба",
+      "path": "yarn/Chapter1_Колба.yarn",
+      "startNode": "МракИСахар_Начало"
+    }
+  ]
+}

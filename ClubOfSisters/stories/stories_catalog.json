@@ -60,7 +60,10 @@
       "novelId": "kill_in_fog",
       "chapterNumber": 1,
       "nextChapterResourceFileName": "УбийствоВМраке/Chapter2_Дорога_к_усадьбе",
-      "menuOrder": 1
+      "menuOrder": 1,
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/covers/kill_in_fog.png",
+      "yarnStartNode": "УбийствоВМраке_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter1_НовоеТело",
@@ -73,7 +76,10 @@
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
       "author": "Князева Анастасия",
-      "menuOrder": 2
+      "menuOrder": 2,
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter1_Прибытие",
@@ -86,7 +92,10 @@
       "category": "romance",
       "coverResourcePath": "Covers/buton_sakury",
       "author": "Aendrous",
-      "menuOrder": 3
+      "menuOrder": 3,
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "МракИСахар/Chapter1_Колба",
@@ -99,7 +108,10 @@
       "category": "romance",
       "coverResourcePath": "Covers/mrak_sugar",
       "author": "Ailè deomhan",
-      "menuOrder": 4
+      "menuOrder": 4,
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/mrak_sugar/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/mrak_sugar/covers/mrak_sugar.png",
+      "yarnStartNode": "МракИСахар_Начало"
     },
     {
       "resourceFileName": "first_meeting",
@@ -141,7 +153,10 @@
       "author": "Татьяна Нервная",
       "novelId": "kill_in_fog",
       "chapterNumber": 2,
-      "nextChapterResourceFileName": "УбийствоВМраке/Chapter3_Игра_и_тьма"
+      "nextChapterResourceFileName": "УбийствоВМраке/Chapter3_Игра_и_тьма",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/covers/kill_in_fog.png",
+      "yarnStartNode": "УбийствоВМраке_Начало"
     },
     {
       "resourceFileName": "УбийствоВМраке/Chapter3_Игра_и_тьма",
@@ -153,7 +168,10 @@
       "author": "Татьяна Нервная",
       "novelId": "kill_in_fog",
       "chapterNumber": 3,
-      "nextChapterResourceFileName": "УбийствоВМраке/Chapter4_Начало_расследования"
+      "nextChapterResourceFileName": "УбийствоВМраке/Chapter4_Начало_расследования",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/covers/kill_in_fog.png",
+      "yarnStartNode": "УбийствоВМраке_Начало"
     },
     {
       "resourceFileName": "УбийствоВМраке/Chapter4_Начало_расследования",
@@ -165,7 +183,10 @@
       "author": "Татьяна Нервная",
       "novelId": "kill_in_fog",
       "chapterNumber": 4,
-      "nextChapterResourceFileName": "УбийствоВМраке/Chapter5_Допросы_ночь"
+      "nextChapterResourceFileName": "УбийствоВМраке/Chapter5_Допросы_ночь",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/covers/kill_in_fog.png",
+      "yarnStartNode": "УбийствоВМраке_Начало"
     },
     {
       "resourceFileName": "УбийствоВМраке/Chapter5_Допросы_ночь",
@@ -177,7 +198,10 @@
       "author": "Татьяна Нервная",
       "novelId": "kill_in_fog",
       "chapterNumber": 5,
-      "nextChapterResourceFileName": "УбийствоВМраке/Chapter6_Погоня"
+      "nextChapterResourceFileName": "УбийствоВМраке/Chapter6_Погоня",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/covers/kill_in_fog.png",
+      "yarnStartNode": "УбийствоВМраке_Начало"
     },
     {
       "resourceFileName": "УбийствоВМраке/Chapter6_Погоня",
@@ -189,7 +213,10 @@
       "author": "Татьяна Нервная",
       "novelId": "kill_in_fog",
       "chapterNumber": 6,
-      "nextChapterResourceFileName": "УбийствоВМраке/Chapter7_Развязка"
+      "nextChapterResourceFileName": "УбийствоВМраке/Chapter7_Развязка",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/covers/kill_in_fog.png",
+      "yarnStartNode": "УбийствоВМраке_Начало"
     },
     {
       "resourceFileName": "УбийствоВМраке/Chapter7_Развязка",
@@ -201,7 +228,10 @@
       "author": "Татьяна Нервная",
       "novelId": "kill_in_fog",
       "chapterNumber": 7,
-      "nextChapterResourceFileName": "УбийствоВМраке/Chapter8_Финалы"
+      "nextChapterResourceFileName": "УбийствоВМраке/Chapter8_Финалы",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/covers/kill_in_fog.png",
+      "yarnStartNode": "УбийствоВМраке_Начало"
     },
     {
       "resourceFileName": "УбийствоВМраке/Chapter8_Финалы",
@@ -212,7 +242,10 @@
       "coverResourcePath": "Covers/kill_in_fog",
       "author": "Татьяна Нервная",
       "novelId": "kill_in_fog",
-      "chapterNumber": 8
+      "chapterNumber": 8,
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/covers/kill_in_fog.png",
+      "yarnStartNode": "УбийствоВМраке_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter2_ПервыйТанец",
@@ -224,7 +257,10 @@
       "synopsisShort": "Портал и первый данж",
       "category": "romance",
       "coverResourcePath": "Covers/buton_sakury",
-      "author": "Aendrous"
+      "author": "Aendrous",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter3_ТайцзиИБутон",
@@ -236,7 +272,10 @@
       "synopsisShort": "Чайный дом и бутон",
       "category": "romance",
       "coverResourcePath": "Covers/buton_sakury",
-      "author": "Aendrous"
+      "author": "Aendrous",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter4_ПервыйДанжВдвоём",
@@ -248,7 +287,10 @@
       "synopsisShort": "Зеркальное озеро",
       "category": "romance",
       "coverResourcePath": "Covers/buton_sakury",
-      "author": "Aendrous"
+      "author": "Aendrous",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter5_Искусство_внутренней_силы",
@@ -259,7 +301,10 @@
       "synopsis": "<!-- epigraph -->",
       "synopsisShort": "Искусство внутренней силы",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter6_Данж_Дворец_Грома",
@@ -270,7 +315,10 @@
       "synopsis": "<!-- epigraph -->",
       "synopsisShort": "Данж: Дворец Грома",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter7_Тени_ревности",
@@ -281,7 +329,10 @@
       "synopsis": "<!-- epigraph -->",
       "synopsisShort": "Тени ревности",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter8_Без_партнёра",
@@ -292,7 +343,10 @@
       "synopsis": "![Соло-танец Лены в пустом зале](images/соло_танец_лены.png)",
       "synopsisShort": "Без партнёра",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter9_Тайна_Мэй",
@@ -303,7 +357,10 @@
       "synopsis": "<!-- epigraph -->",
       "synopsisShort": "Тайна Мэй",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter10_Тайна_Лин",
@@ -314,7 +371,10 @@
       "synopsis": "<!-- epigraph -->",
       "synopsisShort": "Тайна Лин",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter11_Бутон_сакуры",
@@ -325,7 +385,10 @@
       "synopsis": "<!-- epigraph -->",
       "synopsisShort": "Бутон сакуры",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter12_Совет_хранителей",
@@ -336,7 +399,10 @@
       "synopsis": "«Есть знания, которые передаются только через танец. Слова слишком медленные для них.» — Вэнь Сюлань, архивист ци",
       "synopsisShort": "Совет хранителей",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter13_Зеркальное_озеро_возвращение_ключа",
@@ -347,7 +413,10 @@
       "synopsis": "![Зеркальное озеро — пейзаж данжа](images/zerkalnoe_ozero.png)",
       "synopsisShort": "Зеркальное озеро: Возвращение ключа",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter14_Храм_Нефритового_Императора",
@@ -358,7 +427,10 @@
       "synopsis": "<!-- epigraph -->",
       "synopsisShort": "Храм Нефритового Императора",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter15_Новый_рассвет",
@@ -369,7 +441,10 @@
       "synopsis": "«Танец не заканчивается, пока ты помнишь музыку. Даже когда стихают последние аккорды.»",
       "synopsisShort": "Новый рассвет",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter16_Кто_дергает_нити",
@@ -380,7 +455,10 @@
       "synopsis": "<!-- epigraph -->",
       "synopsisShort": "Кто дёргает нити",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter17_Встреча_с_тем_кто_ждёт",
@@ -391,7 +469,10 @@
       "synopsis": "![Заброшенная водонапорная башня — встреча с тем, кто ждёт](images/заброшенная_башня.png)",
       "synopsisShort": "Встреча с тем, кто ждёт",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter18_Зеркальное_озеро_Москва",
@@ -402,7 +483,10 @@
       "synopsis": "<!-- epigraph -->",
       "synopsisShort": "Зеркальное озеро — Москва",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter19_Сломанный_ключ",
@@ -413,7 +497,10 @@
       "synopsis": "<!-- epigraph -->",
       "synopsisShort": "Сломанный ключ",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "БутонСакуры/Chapter20_Танец_согласия",
@@ -424,7 +511,10 @@
       "synopsis": "<!-- epigraph -->",
       "synopsisShort": "Танец согласия",
       "category": "other",
-      "coverResourcePath": "Covers/buton_sakury"
+      "coverResourcePath": "Covers/buton_sakury",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/covers/buton_sakury.png",
+      "yarnStartNode": "БутонСакуры_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter2_ИногдаОниЗамечают",
@@ -436,7 +526,10 @@
       "synopsisShort": "Директор и «Император»",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter3_ГородКоторыйЕщеНеУмер",
@@ -448,7 +541,10 @@
       "synopsisShort": "Выход в город",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter4_НеИзВежливости",
@@ -460,7 +556,10 @@
       "synopsisShort": "Квартира Эйдена",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter5_ВсеЕщеТерпимо",
@@ -472,7 +571,10 @@
       "synopsisShort": "Рейд и Цветок Бездны",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter6_Технический_перерыв_на_жизнь",
@@ -484,7 +586,10 @@
       "synopsisShort": "Технический перерыв на жизнь",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter7_Сакура_действительно_цветет",
@@ -496,7 +601,10 @@
       "synopsisShort": "Сакура действительно цветет",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter8_Охотники__существа_стайные",
@@ -508,7 +616,10 @@
       "synopsisShort": "Охотники – существа стайные",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter9_Старшим_тоже_нужно_учиться",
@@ -520,7 +631,10 @@
       "synopsisShort": "Старшим тоже нужно учиться",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter10_Сегодня_я_все_ещё",
@@ -532,7 +646,10 @@
       "synopsisShort": "Сегодня я все ещё…",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter11_Священное_право_умереть",
@@ -544,7 +661,10 @@
       "synopsisShort": "Священное право умереть",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter12_Не_все_письма_доходят_вовремя",
@@ -556,7 +676,10 @@
       "synopsisShort": "Не все письма доходят вовремя",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter13_Битва_проигранная_заранее",
@@ -568,7 +691,10 @@
       "synopsisShort": "Битва, проигранная заранее",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter14_Заметка_спросить_при_случае",
@@ -580,7 +706,10 @@
       "synopsisShort": "Заметка: спросить при случае",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter15_Рыбам_сегодня_не_рекомендуется",
@@ -592,7 +721,10 @@
       "synopsisShort": "Рыбам сегодня не рекомендуется…",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter16_На_самые_веселые_вечеринки",
@@ -604,7 +736,10 @@
       "synopsisShort": "На самые веселые вечеринки…",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter17_Поговори_со_мной",
@@ -616,7 +751,10 @@
       "synopsisShort": "Поговори со мной",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter18_Когда_у_тебя_единственный_выходной",
@@ -628,7 +766,10 @@
       "synopsisShort": "Когда у тебя единственный выходной",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter19_О_том_как_ломается_доверие",
@@ -640,7 +781,10 @@
       "synopsisShort": "О том, как ломается доверие",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter20_Все_решения_одинаково_плохи",
@@ -652,7 +796,10 @@
       "synopsisShort": "Все решения одинаково плохи",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter21_Пусть_сегодня_это_будешь_ты",
@@ -664,7 +811,10 @@
       "synopsisShort": "Пусть сегодня это будешь ты",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter22_Нет_мир_не_подождёт",
@@ -676,7 +826,10 @@
       "synopsisShort": "Нет, мир не подождёт",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter23_Это_уже_даже_не_звоночек",
@@ -688,7 +841,10 @@
       "synopsisShort": "Это уже даже не звоночек",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter24_Привет_красотка_Узнаёшь",
@@ -700,7 +856,10 @@
       "synopsisShort": "Привет, красотка. Узнаёшь?",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter25_Когда_увидишь_меня_настоящей",
@@ -712,7 +871,10 @@
       "synopsisShort": "Когда увидишь меня настоящей",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter26_Затишье",
@@ -724,7 +886,10 @@
       "synopsisShort": "Затишье",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter27_Не_забудь_разделить_еду_с_ближним",
@@ -736,7 +901,10 @@
       "synopsisShort": "Не забудь разделить еду с ближним",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter28_Где_начинается_доверие",
@@ -748,7 +916,10 @@
       "synopsisShort": "Где начинается доверие",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter29_Для_самых_душевных_разговоров_есть_спортзал",
@@ -760,7 +931,10 @@
       "synopsisShort": "Для самых душевных разговоров есть спортзал",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter30_Без_направления",
@@ -772,7 +946,10 @@
       "synopsisShort": "Без направления",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter31_Еще_один_вдох",
@@ -784,7 +961,10 @@
       "synopsisShort": "Еще один вдох",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter32_Иногда_люди_ломаются",
@@ -796,7 +976,10 @@
       "synopsisShort": "Иногда люди ломаются",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter33_Инструмент_суда_а_не_его_объект",
@@ -808,7 +991,10 @@
       "synopsisShort": "Инструмент суда, а не его объект",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter34_Я_вижу_тебя",
@@ -820,7 +1006,10 @@
       "synopsisShort": "Я вижу тебя",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter35_Ты_можешь_сломаться",
@@ -832,7 +1021,10 @@
       "synopsisShort": "Ты можешь сломаться",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter36_Самая_тихая_ночь",
@@ -844,7 +1036,10 @@
       "synopsisShort": "Самая тихая ночь",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     },
     {
       "resourceFileName": "ШакалВишневыйМеч/Chapter37_Время_убийцы",
@@ -856,7 +1051,10 @@
       "synopsisShort": "Время убийцы",
       "category": "other",
       "coverResourcePath": "Covers/shakal_cherry_sword",
-      "author": "Князева Анастасия"
+      "author": "Князева Анастасия",
+      "contentPackUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/manifest.json",
+      "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/shakal_cherry_sword/covers/shakal_cherry_sword.png",
+      "yarnStartNode": "ШакалВишневыйМеч_Начало"
     }
   ]
 }
