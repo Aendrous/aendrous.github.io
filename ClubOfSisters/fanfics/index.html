@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Фанфики · Клуб сестёр</title>
+  <style>
+    :root {
+      --bg: #0e1018;
+      --card: #1a1d2a;
+      --text: #e8ecf5;
+      --muted: #9aa3b8;
+      --accent: #d4b56a;
+      --line: #2a3144;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: radial-gradient(1200px 600px at 50% -10%, #1c2238, var(--bg));
+      color: var(--text);
+      min-height: 100vh;
+    }
+    header {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 1rem;
+    }
+    header h1 {
+      margin: 0 0 0.35rem;
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 0.02em;
+    }
+    header p { margin: 0; color: var(--muted); line-height: 1.45; }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 1.25rem 3rem;
+      display: grid;
+      gap: 0.85rem;
+    }
+    .card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1rem 1.1rem;
+      transition: border-color 0.15s, transform 0.15s;
+    }
+    .card:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .card h2 {
+      margin: 0 0 0.35rem;
+      font-size: 1.15rem;
+    }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    .badge {
+      display: inline-block;
+      margin-top: 0.55rem;
+      font-size: 0.75rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 999px;
+      background: #2a2140;
+      color: #e0c98a;
+    }
+    .badge.wip { background: #2a3220; color: #b8d48a; }
+    .empty, .err { color: var(--muted); padding: 1rem 0; }
+    footer {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 1.25rem 2rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    a.home { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Фанфики игроков</h1>
+    <p>Продолжения к новеллам «Клуб сестёр» — как читалка. Официальные истории —
+      <a class="home" href="../">на главной CDN</a>.</p>
+  </header>
+  <main id="list"><p class="empty">Загрузка…</p></main>
+  <footer>Данные: <code>stories/fanfic_catalog.json</code> · ClubOfSisters</footer>
+  <script>
+    const CATALOG = "../stories/fanfic_catalog.json";
+    async function load() {
+      const el = document.getElementById("list");
+      try {
+        const res = await fetch(CATALOG + "?t=" + Date.now());
+        if (!res.ok) throw new Error(res.status + " " + res.statusText);
+        const data = await res.json();
+        const entries = (data.entries || []).filter(e => e && e.isFanfic);
+        if (!entries.length) {
+          el.innerHTML = '<p class="empty">Пока нет опубликованных фанфиков.</p>';
+          return;
+        }
+        el.innerHTML = entries.map(e => {
+          const id = e.fanficId || (e.resourceFileName || "").replace(/^ugc\//, "");
+          const parent = e.parentTitle || e.parentNovelId || "новелле";
+          const wip = /в работе|черновик/i.test(e.title || "") || /черновик/i.test(e.chapterTitle || "");
+          const href = "read.html?id=" + encodeURIComponent(id);
+          return `<a class="card" href="${href}">
+            <h2>${escapeHtml(e.title || "Без названия")}</h2>
+            <div class="meta">к «${escapeHtml(parent)}» · ${escapeHtml(e.author || "Игрок")}</div>
+            <span class="badge${wip ? " wip" : ""}">${wip ? "черновик" : "фанфик"}</span>
+          </a>`;
+        }).join("");
+      } catch (err) {
+        el.innerHTML = `<p class="err">Не удалось загрузить каталог: ${escapeHtml(String(err))}</p>`;
+      }
+    }
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, c => ({
+        "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+      })[c]);
+    }
+    load();
+  </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿{
+    "entries": [
+        {
+            "resourceFileName": "ugc/fanfic_20260802_131441_1763",
+            "title": "Продолжение: Добро пожаловать домой",
+            "novelId": "ugc_fanfic_20260802_131441_1763",
+            "chapterNumber": 1,
+            "chapterTitle": "Фанфик к «Добро пожаловать домой»",
+            "category": "fanfic",
+            "synopsis": "Фанфик к «Добро пожаловать домой».\n\nРиган (Морай) — охотница на нечисть. Дождь и расставание, пробуждение в заброшенной церкви, бой с безликими тенями и намёк ведьмака на часовню на холме.",
+            "synopsisShort": "Фанфик · «Добро пожаловать домой»",
+            "author": "Игрок (Хранитель историй)",
+            "coverResourcePath": "Covers/welcome_home",
+            "coverRemoteUrl": "https://aendrous.github.io/ClubOfSisters/content/welcome_home/covers/welcome_home.png",
+            "contentPackUrl": "",
+            "yarnStartNode": "fanfic_20260802_131441_1763_Конец",
+            "menuOrder": 8000,
+            "isFanfic": true,
+            "parentNovelId": "welcome_home",
+            "parentTitle": "Добро пожаловать домой",
+            "fanficId": "fanfic_20260802_131441_1763",
+            "fanficYarnUrl": "https://aendrous.github.io/ClubOfSisters/content/ugc/fanfic_20260802_131441_1763/continuation.yarn"
+        }
+    ]
+}
