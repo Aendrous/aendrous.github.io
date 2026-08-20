@@ -7,13 +7,10 @@ title: Главная
 
 Публикации о расследованиях, элитах, книгах и скрытых смыслах. Плюс свои романы, новеллы для игры и живой Android-проект.
 
-## WriterManager
+## Романы и новеллы
 
-Личный менеджер развития писателя (подход ClubOfSisters: prompt + корпус + каталог + CLI).
-
-- **[Как работает роль](/projects/writer-manager/)**
-- [Витрина `/WriterManager/`](/WriterManager/)
-- [«Бутон сакуры» — роман ↔ ClubOfSisters ↔ ЛитМир](/2026/08/20/buton-sakury-roman-dlya-litmir-i-igry/)
+- **[«Бутон сакуры» — роман ↔ ClubOfSisters ↔ ЛитМир](/2026/08/20/buton-sakury-roman-dlya-litmir-i-igry/)**
+- [Главы новеллы в ClubOfSisters](/ClubOfSisters/content/buton_sakury/manifest.json)
 
 ## Проект: ClubOfSisters
 
@@ -23,13 +20,6 @@ title: Главная
 - [Скачать APK](https://github.com/Aendrous/ClubOfSisters-releases/releases/latest)
 - [CDN каталога новелл](/ClubOfSisters/)
 - [Ранний анонс Хранителя](/2026/07/25/clubofsisters-story-keeper/)
-
-## Статьи из переписки
-
-Черновик собирается из экспорта чата (API не читает историю web-чата). Ключ только в `.env`, не в git.
-
-- [Как положить чат и получить пост](/projects/deepseek-articles/)
-- [Почему главная отдавала 404](/2026/08/20/stati-iz-perepiski-deepseek/)
 
 ## Последние статьи
 

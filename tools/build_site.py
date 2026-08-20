@@ -152,9 +152,7 @@ def page_shell(title: str, inner: str, description: str | None = None) -> str:
       <p class="tagline">{html.escape(tagline)}</p>
       <nav class="site-nav">
         <a href="/">Статьи</a>
-        <a href="/projects/writer-manager/">WriterManager</a>
         <a href="/projects/clubofsisters/">ClubOfSisters</a>
-        <a href="/projects/deepseek-articles/">Статьи из чатов</a>
         <a href="/ClubOfSisters/">CDN новелл</a>
         <a href="https://github.com/Aendrous/aendrous.github.io">GitHub</a>
       </nav>
@@ -240,15 +238,14 @@ def render_index(posts: list[Post]) -> None:
         )
     inner = f"""
 <h1>Айтишник о книгах</h1>
-<p>Публикации о расследованиях, элитах, книгах и скрытых смыслах. Плюс живой проект визуальной новеллы.</p>
+<p>Публикации о книгах, своих романах и новеллах — плюс живой проект визуальной новеллы.</p>
 
 <div class="project-box">
-  <h2>WriterManager</h2>
-  <p>Личный менеджер развития писателя: блог, прочитанное, свои романы и новеллы для игры и ЛитМир. Пайплайн как у ClubOfSisters — <code>prompt</code>, корпус, каталог, CLI.</p>
+  <h2>Романы и новеллы</h2>
+  <p>Свои книги, новеллы для игры и линия на ЛитМир. Флагман — «Бутон сакуры: Тайцзи в ритме хастла».</p>
   <ul>
-    <li><a href="/projects/writer-manager/"><strong>Как работает роль менеджера</strong></a></li>
-    <li><a href="/WriterManager/">Витрина проекта</a> · <a href="/WriterManager/catalog.json">catalog.json</a></li>
-    <li><a href="/2026/08/20/buton-sakury-roman-dlya-litmir-i-igry/">«Бутон сакуры» — роман ↔ игра ↔ ЛитМир</a></li>
+    <li><a href="/2026/08/20/buton-sakury-roman-dlya-litmir-i-igry/"><strong>«Бутон сакуры» — роман ↔ игра ↔ ЛитМир</strong></a></li>
+    <li><a href="/ClubOfSisters/content/buton_sakury/manifest.json">Главы новеллы в ClubOfSisters</a></li>
   </ul>
 </div>
 
@@ -259,15 +256,6 @@ def render_index(posts: list[Post]) -> None:
     <li><a href="/projects/clubofsisters/"><strong>Веха проекта — что сделано и что дальше</strong></a></li>
     <li><a href="https://github.com/Aendrous/ClubOfSisters-releases/releases/latest">Скачать APK</a></li>
     <li><a href="/ClubOfSisters/">CDN каталога новелл</a></li>
-  </ul>
-</div>
-
-<div class="project-box">
-  <h2>Статьи из переписки</h2>
-  <p>Черновик собирается из экспорта чата DeepSeek/GigaChat. Ключ API только в <code>.env</code>, не в git.</p>
-  <ul>
-    <li><a href="/projects/deepseek-articles/">Как положить чат и получить пост</a></li>
-    <li><a href="/2026/08/20/stati-iz-perepiski-deepseek/">Почему главная отдавала 404</a></li>
   </ul>
 </div>
 

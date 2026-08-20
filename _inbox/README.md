@@ -13,12 +13,12 @@ API DeepSeek **не читает** историю с [chat.deepseek.com](https:/
 ```bash
 cp .env.example .env   # вписать DEEPSEEK_API_KEY с https://platform.deepseek.com/api_keys
 
-python3 tools/deepseek_to_post.py --list _inbox/conversations.json
-python3 tools/deepseek_to_post.py _inbox/conversations.json --index 0
+python3 _writer/publish_from_chat.py --list _inbox/conversations.json
+python3 _writer/publish_from_chat.py _inbox/conversations.json --index 0 --prefer gigachat
 # без ключа — только расшифровка:
 python3 tools/deepseek_to_post.py _inbox/example-chat.md --format-only --title "Черновик"
 ```
 
-Готовый пост попадёт в `_posts/`, скрипт сразу пересоберёт `index.html`.
+Готовый пост попадёт в `_posts/`, скрипт сразу пересоберёт `index.html`. Это локальный конвейер, не страница сайта.
 
-Запасной ключ — GigaChat (как в ClubOfSisters / Хранителе): `GIGACHAT_AUTHORIZATION_KEY` в `.env`, флаг `--prefer gigachat`.
+Запасной ключ — GigaChat (как в ClubOfSisters / Хранителе): `GIGACHAT_AUTHORIZATION_KEY` в `.env`.

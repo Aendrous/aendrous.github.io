@@ -32,6 +32,4 @@ tags: [github-pages, jekyll, deepseek, clubofsisters]
 3. Пост в `_posts/`, сразу пересборка статики: `index.html` и страницы вида `/2026/08/20/slug/`.
 4. `.nojekyll` остаётся. Новеллы не трогаем. Блог больше не зависит от Jekyll на стороне GitHub.
 
-Инструкция: [Статьи из переписки DeepSeek](/projects/deepseek-articles/). Пример файла — `_inbox/example-chat.md`.
-
 Главная снова должна открываться. Если после пуша GitHub всё ещё крутит старый «building», в Settings → Pages достаточно сохранить источник `main / (root)` ещё раз — очередь сборок иногда залипает.

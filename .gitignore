@@ -9,6 +9,8 @@ _inbox/*.zip
 _inbox/*.txt
 !_inbox/README.md
 !_inbox/example-chat.md
-WriterManager/.env
-WriterManager/secrets.toml
+# Служебный пайплайн писателя — только на этой машине, не в GitHub Pages
+_writer/
+WriterManager/
+.cursor/
 *.apk
