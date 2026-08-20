@@ -1,0 +1,25 @@
+name: Test chat parser
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - "tools/**"
+      - "_inbox/example-chat.md"
+      - ".github/workflows/test-tools.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: python3 -m pip install -r tools/requirements.txt
+      - name: Parse tests
+        run: python3 tools/test_chat_parse.py
+      - name: Build static site
+        run: python3 tools/build_site.py
