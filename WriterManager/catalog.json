@@ -1,0 +1,80 @@
+{
+  "title": "Aendrous Writer Catalog",
+  "author": "Андрей Фетисов",
+  "site": "https://aendrous.github.io/",
+  "updated": "2026-08-20",
+  "entries": [
+    {
+      "id": "buton_sakury",
+      "kind": "own_novel",
+      "title": "Бутон сакуры: Тайцзи в ритме хастла",
+      "channels": ["litmir", "clubofsisters", "blog"],
+      "status": "published_in_game",
+      "chapters": 20,
+      "novelId": "buton_sakury",
+      "cdn": "https://aendrous.github.io/ClubOfSisters/content/buton_sakury/manifest.json",
+      "blurb": "Лена едет в Гуанчжоу. Хастл открывает порталы в данжи, тайцзи учит управлять ци. Роман для ЛитМир и новелла в ClubOfSisters.",
+      "next_actions": [
+        "Анонс на блоге со связкой ЛитМир ↔ APK",
+        "Выжимка 3 сцен для тизера",
+        "Серия постов «как роман стал Yarn»"
+      ]
+    },
+    {
+      "id": "clubofsisters",
+      "kind": "project",
+      "title": "ClubOfSisters + Хранитель историй",
+      "channels": ["android", "github_pages_cdn", "blog"],
+      "status": "active",
+      "apk": "https://github.com/Aendrous/ClubOfSisters-releases/releases/latest",
+      "cdn": "https://aendrous.github.io/ClubOfSisters/",
+      "project_page": "https://aendrous.github.io/projects/clubofsisters/",
+      "blurb": "Русскоязычная визуальная новелла; после финала — продолжение канона с ИИ."
+    },
+    {
+      "id": "kill_in_fog",
+      "kind": "game_novel",
+      "title": "Убийство во мраке",
+      "channels": ["clubofsisters"],
+      "novelId": "kill_in_fog",
+      "author_credit": "Татьяна Нервная",
+      "cdn": "https://aendrous.github.io/ClubOfSisters/content/kill_in_fog/manifest.json"
+    },
+    {
+      "id": "shakal_cherry_sword",
+      "kind": "game_novel",
+      "title": "Шакал. Вишневый меч и конец света",
+      "channels": ["clubofsisters"],
+      "novelId": "shakal_cherry_sword",
+      "author_credit": "Князева Анастасия"
+    },
+    {
+      "id": "blog_corelli",
+      "kind": "essay",
+      "title": "Пять ликов странствующего дьявола",
+      "url": "https://aendrous.github.io/2026/02/26/stranstvuyushiy-diavol-ot-miltona-do-korelli/",
+      "themes": ["корелли", "мильтон", "мистика"]
+    },
+    {
+      "id": "blog_epstein",
+      "kind": "essay",
+      "title": "Искусство как зеркало власти",
+      "url": "https://aendrous.github.io/2026/02/18/epstein-i-iskusstvo.html",
+      "themes": ["элиты", "кино", "фаулз"]
+    },
+    {
+      "id": "blog_kali",
+      "kind": "essay",
+      "title": "Песнь Кали → Бхайрава",
+      "url": "https://aendrous.github.io/2025/12/16/pesn-kali-kak-igra-privela-k-bhayrave/",
+      "themes": ["игра", "книга", "индия"]
+    },
+    {
+      "id": "blog_prague",
+      "kind": "essay",
+      "title": "Прага: город на пороге миров",
+      "url": "https://aendrous.github.io/2020/03/15/prague-gorod-na-poroge-mirov/",
+      "themes": ["путешествие", "мистика"]
+    }
+  ]
+}

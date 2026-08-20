@@ -9,3 +9,6 @@ _inbox/*.zip
 _inbox/*.txt
 !_inbox/README.md
 !_inbox/example-chat.md
+WriterManager/.env
+WriterManager/secrets.toml
+*.apk

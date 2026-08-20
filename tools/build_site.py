@@ -152,8 +152,9 @@ def page_shell(title: str, inner: str, description: str | None = None) -> str:
       <p class="tagline">{html.escape(tagline)}</p>
       <nav class="site-nav">
         <a href="/">Статьи</a>
+        <a href="/projects/writer-manager/">WriterManager</a>
         <a href="/projects/clubofsisters/">ClubOfSisters</a>
-        <a href="/projects/deepseek-articles/">Статьи из DeepSeek</a>
+        <a href="/projects/deepseek-articles/">Статьи из чатов</a>
         <a href="/ClubOfSisters/">CDN новелл</a>
         <a href="https://github.com/Aendrous/aendrous.github.io">GitHub</a>
       </nav>
@@ -242,6 +243,16 @@ def render_index(posts: list[Post]) -> None:
 <p>Публикации о расследованиях, элитах, книгах и скрытых смыслах. Плюс живой проект визуальной новеллы.</p>
 
 <div class="project-box">
+  <h2>WriterManager</h2>
+  <p>Личный менеджер развития писателя: блог, прочитанное, свои романы и новеллы для игры и ЛитМир. Пайплайн как у ClubOfSisters — <code>prompt</code>, корпус, каталог, CLI.</p>
+  <ul>
+    <li><a href="/projects/writer-manager/"><strong>Как работает роль менеджера</strong></a></li>
+    <li><a href="/WriterManager/">Витрина проекта</a> · <a href="/WriterManager/catalog.json">catalog.json</a></li>
+    <li><a href="/2026/08/20/buton-sakury-roman-dlya-litmir-i-igry/">«Бутон сакуры» — роман ↔ игра ↔ ЛитМир</a></li>
+  </ul>
+</div>
+
+<div class="project-box">
   <h2>Проект: ClubOfSisters</h2>
   <p>Русскоязычная визуальная новелла для Android и <strong>Хранитель историй</strong> (продолжение канона с ИИ на телефоне).</p>
   <ul>
@@ -252,11 +263,11 @@ def render_index(posts: list[Post]) -> None:
 </div>
 
 <div class="project-box">
-  <h2>Статьи из переписки DeepSeek</h2>
-  <p>Черновик статьи собирается из экспорта чата. Ключ API не лежит в репозитории — только в <code>.env</code> или в секретах GitHub Actions.</p>
+  <h2>Статьи из переписки</h2>
+  <p>Черновик собирается из экспорта чата DeepSeek/GigaChat. Ключ API только в <code>.env</code>, не в git.</p>
   <ul>
     <li><a href="/projects/deepseek-articles/">Как положить чат и получить пост</a></li>
-    <li><a href="/2026/08/20/stati-iz-perepiski-deepseek/">Заметка о пайплайне и починке 404</a></li>
+    <li><a href="/2026/08/20/stati-iz-perepiski-deepseek/">Почему главная отдавала 404</a></li>
   </ul>
 </div>
 
