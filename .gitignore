@@ -7,6 +7,7 @@ __pycache__/
 _inbox/*.json
 _inbox/*.zip
 _inbox/*.txt
+_inbox/*.md
 !_inbox/README.md
 !_inbox/example-chat.md
 # Служебный пайплайн писателя — только на этой машине, не в GitHub Pages
