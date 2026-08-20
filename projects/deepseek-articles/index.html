@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Статьи из переписки DeepSeek · Айтишник хочет пофилосовствовать</title>
+  <meta name="description" content="Исследования о книгах, тайных обществах и скрытых смыслах" />
+  <meta name="author" content="Андрей Фетисов" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1><a href="/" id="a-title">Айтишник хочет пофилосовствовать</a></h1>
+      <p class="tagline">Исследования о книгах, тайных обществах и скрытых смыслах</p>
+      <nav class="site-nav">
+        <a href="/">Статьи</a>
+        <a href="/projects/clubofsisters/">ClubOfSisters</a>
+        <a href="/projects/deepseek-articles/">Статьи из DeepSeek</a>
+        <a href="/ClubOfSisters/">CDN новелл</a>
+        <a href="https://github.com/Aendrous/aendrous.github.io">GitHub</a>
+      </nav>
+    </div>
+  </header>
+  <div class="container" id="main_content">
+<article>
+  <h1>Статьи из переписки DeepSeek</h1>
+<p>На GitHub Pages нет сервера, который мог бы сам ходить в ваш аккаунт DeepSeek. История с <a href="https://chat.deepseek.com">chat.deepseek.com</a> через API <strong>не скачивается</strong>. API только пишет новые ответы.</p>
+<p>Цепочка такая:</p>
+<ol>
+<li>Экспорт чата (Settings → Data / Export) или копипаст в markdown.</li>
+<li>Файл в <code>_inbox/</code> (JSON в git не попадает).</li>
+<li>Ключ в локальном <code>.env</code> — шаблон <code>.env.example</code>. Ключ: <a href="https://platform.deepseek.com/api_keys">platform.deepseek.com/api_keys</a>.</li>
+<li>Команда:</li>
+</ol>
+<pre><code class="language-bash">python3 -m pip install markdown
+python3 tools/deepseek_to_post.py _inbox/conversations.json --index 0
+</code></pre>
+<p>Без ключа можно сохранить сырую расшифровку:</p>
+<pre><code class="language-bash">python3 tools/deepseek_to_post.py _inbox/example-chat.md --format-only
+</code></pre>
+<p>В репозитории <strong>нет</strong> рабочих секретов: в публичной папке <code>ClubOfSisters/</code> их тоже не оказалось (и не должно быть — это CDN для Android). Старый GigaChat из Хранителя историй можно подставить локально как запасной вариант: <code>GIGACHAT_AUTHORIZATION_KEY</code> и флаг <code>--prefer gigachat</code>.</p>
+<p>После генерации пост появляется в <code>_posts/</code>, а <code>tools/build_site.py</code> пишет HTML. Это нужно, потому что на сайте включён <code>.nojekyll</code>: так живёт CDN новелл, но Jekyll больше не превращает <code>index.md</code> в главную страницу.</p>
+</article>
+
+  </div>
+  <footer class="site-footer">
+    <div class="container">Андрей Фетисов · GitHub Pages · без Jekyll, чтобы жил CDN ClubOfSisters</div>
+  </footer>
+
+</body>
+</html>

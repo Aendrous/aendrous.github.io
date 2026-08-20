@@ -1,0 +1,58 @@
+name: Article from DeepSeek chat
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Путь к чату в репозитории
+        required: true
+        default: _inbox/example-chat.md
+      title:
+        description: Подсказка заголовка (можно пусто)
+        required: false
+        default: ""
+      format_only:
+        description: Не звать API, только расшифровка
+        type: boolean
+        default: true
+      prefer:
+        description: deepseek, gigachat или auto
+        default: deepseek
+
+permissions:
+  contents: write
+
+jobs:
+  article:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: python3 -m pip install -r tools/requirements.txt
+      - name: Generate post
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GIGACHAT_AUTHORIZATION_KEY: ${{ secrets.GIGACHAT_AUTHORIZATION_KEY }}
+          GIGACHAT_SCOPE: GIGACHAT_API_PERS
+        run: |
+          set -euo pipefail
+          ARGS=("${{ inputs.source }}")
+          if [ "${{ inputs.format_only }}" = "true" ]; then
+            ARGS+=(--format-only)
+          fi
+          if [ -n "${{ inputs.title }}" ]; then
+            ARGS+=(--title "${{ inputs.title }}")
+          fi
+          ARGS+=(--prefer "${{ inputs.prefer }}")
+          python3 tools/deepseek_to_post.py "${ARGS[@]}"
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _posts index.html 404.html 20?? projects assets
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "Add article from DeepSeek chat inbox."
+          git push

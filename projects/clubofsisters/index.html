@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ClubOfSisters — веха проекта: Хранитель на телефоне · Айтишник хочет пофилосовствовать</title>
+  <meta name="description" content="Это не очередная заметка о книге — это отчёт о живой игре. ClubOfSisters — русскоязычная визуальная новелла для Android. Игрок читает истории с выборами; после финала открывается Х…" />
+  <meta name="author" content="Андрей Фетисов" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1><a href="/" id="a-title">Айтишник хочет пофилосовствовать</a></h1>
+      <p class="tagline">Исследования о книгах, тайных обществах и скрытых смыслах</p>
+      <nav class="site-nav">
+        <a href="/">Статьи</a>
+        <a href="/projects/clubofsisters/">ClubOfSisters</a>
+        <a href="/projects/deepseek-articles/">Статьи из DeepSeek</a>
+        <a href="/ClubOfSisters/">CDN новелл</a>
+        <a href="https://github.com/Aendrous/aendrous.github.io">GitHub</a>
+      </nav>
+    </div>
+  </header>
+  <div class="container" id="main_content">
+<article class="post">
+  <h1>ClubOfSisters — веха проекта: Хранитель на телефоне</h1>
+  <p class="post-meta">26.07.2026 · <a href="/">на главную</a></p>
+  <div class="post-content">
+<p>Это не очередная заметка о книге — это <strong>отчёт о живой игре</strong>.</p>
+<p><strong>ClubOfSisters</strong> — русскоязычная визуальная новелла для Android. Игрок читает истории с выборами; после финала открывается <strong>Хранитель историй</strong>: можно продолжить канон своими словами, а ИИ (GigaChat) раскладывает сцену на реплики в формате Yarn.</p>
+<hr>
+<h2>Скачать APK</h2>
+<p>Актуальная сборка всегда здесь:</p>
+<p><strong><a href="https://github.com/Aendrous/ClubOfSisters-releases/releases/latest">GitHub Releases · ClubOfSisters-releases</a></strong></p>
+<ul>
+<li>Пакет: <code>com.Aendrous.ClubOfSisters</code></li>
+<li>Android 8.0+ (API 26)</li>
+<li>Исходники игры — отдельно; публичный канал — только APK</li>
+</ul>
+<p>Сайт проекта и новости: <a href="https://aendrous.github.io/">aendrous.github.io</a>.</p>
+<hr>
+<h2>История изменений (мобильный Хранитель)</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Версия</th>
+<th>Что появилось</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>0.2.1</strong></td>
+<td>Хранитель в игровом UI, GigaChat (desktop), история из новеллы, удаление продолжений, своя иконка</td>
+</tr>
+<tr>
+<td><strong>0.2.2–0.2.3</strong></td>
+<td>Пустой экран на телефоне починен; клавиатура не перекрывает поле; ключи GigaChat вшиваются в APK</td>
+</tr>
+<tr>
+<td><strong>0.2.4</strong></td>
+<td>SSL на Android через Java HTTPS; прокрутка длинного ввода; защита от «стирания» текста после брифа</td>
+</tr>
+<tr>
+<td><strong>0.2.5–0.2.6</strong></td>
+<td>Ревью реплик без наезда кнопок; контекст сцены для ИИ; кнопка <strong>Экспорт</strong> продолжения</td>
+</tr>
+<tr>
+<td><strong>0.2.7</strong></td>
+<td>Панель над клавиатурой (эксперимент), экспорт в файл Downloads</td>
+</tr>
+<tr>
+<td><strong>0.2.8</strong></td>
+<td>Компактная панель <strong>История · Бриф · Выйти · Отправить ИИ</strong>; экспорт только файлом (без буфера)</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2>Что уже удалось из задуманного</h2>
+<ul>
+<li>Читать новеллы на телефоне с адаптивным UI и сохранением прогресса  </li>
+<li>После прохождения — <strong>продолжить историю</strong> внутри той же сцены (фон, спрайты, диалоговая панель)  </li>
+<li>Короткий <strong>бриф / интервью</strong> → свой текст → ответ GigaChat битами <code>Имя: текст</code>  </li>
+<li>Принимать реплики по одной, править, перегенерировать блок  </li>
+<li>Копить принятое в <code>continuation.yarn</code> и <strong>экспортировать файл</strong> продолжения (без текста исходной новеллы)  </li>
+<li>Библиотека «Миры игроков»: открыть / экспортировать / удалить  </li>
+<li>Рабочий GigaChat на Android (обход UnityTLS)  </li>
+</ul>
+<p>Идея «Хранителя» из <a href="/2026/07/25/clubofsisters-story-keeper/">раннего анонса</a> перестала быть макетом — она <strong>играется на устройстве</strong>.</p>
+<hr>
+<h2>Что ещё впереди</h2>
+<ul>
+<li>Общий <strong>серверный каталог</strong> продолжений (сейчас всё локально на телефоне)  </li>
+<li>Прикрепление <strong>референс-рисунков</strong> к сцене; генерация фонов/спрайтов — отдельный пайплайн (как с рисунками Тани), не «просто GigaChat»  </li>
+<li>Система сохранений прогресса Хранителя между сессиями удобнее  </li>
+<li>Больше готовых новелл в Yarn и озвучка  </li>
+<li>Публикация в RuStore / Google Play  </li>
+</ul>
+<hr>
+<h2>Для кого это</h2>
+<p>Для тех, кто дочитал новеллу и не хочет отпускать мир: можно дописать сцену своим языком, а Хранитель поможет уложить её в формат визуальной новеллы.</p>
+<p>Пилоты и отзывы — автору сборки. Следующие сборки снова появятся в <a href="https://github.com/Aendrous/ClubOfSisters-releases/releases/latest">Releases</a>.</p>
+  </div>
+</article>
+
+    <div class="post-comments">
+<script src="https://giscus.app/client.js"
+        data-repo="Aendrous/aendrous.github.io"
+        data-repo-id="R_kgDOPN63dA"
+        data-category="General"
+        data-category-id="DIC_kwDOPN63dM4C2twQ"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="ru"
+        crossorigin="anonymous"
+        async>
+</script>
+
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="container">Андрей Фетисов · GitHub Pages · без Jekyll, чтобы жил CDN ClubOfSisters</div>
+  </footer>
+
+</body>
+</html>

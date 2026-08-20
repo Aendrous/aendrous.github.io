@@ -21,4 +21,6 @@ python tools/publish_content_pack.py --novel veter --update-catalog
 # затем скопировать docs/ClubOfSisters → aendrous.github.io/ClubOfSisters и push
 ```
 
-В `aendrous.github.io` лежит `.nojekyll`, чтобы JSON/OGG/PNG отдавались без Jekyll.
+В `aendrous.github.io` лежит `.nojekyll`, чтобы JSON/OGG/PNG/Yarn отдавались без Jekyll.
+
+Из‑за этого корень сайта **не** собирает `index.md`: GitHub ищет `index.html`. Блог собирается скриптом `python3 tools/build_site.py` (см. корневой `tools/`). Не удаляйте `.nojekyll` — иначе снова отвалится этот CDN.

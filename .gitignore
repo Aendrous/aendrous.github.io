@@ -1,0 +1,11 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+_inbox/*.json
+_inbox/*.zip
+_inbox/*.txt
+!_inbox/README.md
+!_inbox/example-chat.md

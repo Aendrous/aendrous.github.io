@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Почему aendrous.github.io отдавал 404 и как статьи рождаются из чатов DeepSeek · Айтишник хочет пофилосовствовать</title>
+  <meta name="description" content="Две недели главная aendrous.github.io встречала 404, а каталог ClubOfSisters при этом открывался. Это не «пропал репозиторий» и не сломанный домен. Сломалась схема сборки. Что случ…" />
+  <meta name="author" content="Андрей Фетисов" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1><a href="/" id="a-title">Айтишник хочет пофилосовствовать</a></h1>
+      <p class="tagline">Исследования о книгах, тайных обществах и скрытых смыслах</p>
+      <nav class="site-nav">
+        <a href="/">Статьи</a>
+        <a href="/projects/clubofsisters/">ClubOfSisters</a>
+        <a href="/projects/deepseek-articles/">Статьи из DeepSeek</a>
+        <a href="/ClubOfSisters/">CDN новелл</a>
+        <a href="https://github.com/Aendrous/aendrous.github.io">GitHub</a>
+      </nav>
+    </div>
+  </header>
+  <div class="container" id="main_content">
+<article class="post">
+  <h1>Почему aendrous.github.io отдавал 404 и как статьи рождаются из чатов DeepSeek</h1>
+  <p class="post-meta">20.08.2026 · <a href="/">на главную</a></p>
+  <div class="post-content">
+<p>Две недели главная <a href="https://aendrous.github.io/">aendrous.github.io</a> встречала 404, а каталог ClubOfSisters при этом открывался. Это не «пропал репозиторий» и не сломанный домен. Сломалась схема сборки.</p>
+<h2>Что случилось</h2>
+<p>Сайт — user GitHub Pages: репозиторий <code>Aendrous/aendrous.github.io</code>, ветка <code>main</code>, корень. Блог задуман как Jekyll: <code>_posts/</code>, <code>index.md</code>, тема Hacker.</p>
+<p>1 августа в корень положили пустой <code>.nojekyll</code>. Зачем: CDN визуальной новеллы (<code>/ClubOfSisters/stories/stories_catalog.json</code>, Yarn, OGG, обложки) GitHub иначе прогоняет через Jekyll. Для игры это смерть: каталог ловил 404, пока папки не опубликовали «как файлы».</p>
+<p>Побочный эффект: <strong>Jekyll выключился целиком</strong>. Pages без Jekyll ищет <code>index.html</code>. У блога был только <code>index.md</code>. Запрос на <code>/</code> → 404. <code>/ClubOfSisters/</code> жил, потому что там настоящий HTML.</p>
+<p>Отдельно последняя официальная сборка Pages с 6 августа зависла в статусе <code>building</code> (коммит с фанфик-ридером). Живая копия CDN на тот момент оставалась от 2 августа.</p>
+<h2>Что нельзя было сделать «по API DeepSeek»</h2>
+<p>Ключ API и переписка в веб-чате — разные двери. <code>https://api.deepseek.com/chat/completions</code> не отдаёт список диалогов с chat.deepseek.com. Зато по экспорту чата можно собрать эссе в голосе этого блога и сразу выложить его как страницу.</p>
+<p>В публичной папке <code>ClubOfSisters/</code> секретов нет — и не должно быть: это CDN для телефона. Ключ DeepSeek создаётся на <a href="https://platform.deepseek.com/api_keys">platform.deepseek.com</a> и живёт только в локальном <code>.env</code> (шаблон в корне репозитория). Запасной вариант — тот же GigaChat, что у Хранителя историй, тоже только локально.</p>
+<h2>Как теперь устроен конвейер</h2>
+<ol>
+<li>Экспорт чата → <code>_inbox/</code> (JSON в git не попадает).</li>
+<li><code>python3 tools/deepseek_to_post.py _inbox/conversations.json --index 0</code></li>
+<li>Пост в <code>_posts/</code>, сразу пересборка статики: <code>index.html</code> и страницы вида <code>/2026/08/20/slug/</code>.</li>
+<li><code>.nojekyll</code> остаётся. Новеллы не трогаем. Блог больше не зависит от Jekyll на стороне GitHub.</li>
+</ol>
+<p>Инструкция: <a href="/projects/deepseek-articles/">Статьи из переписки DeepSeek</a>. Пример файла — <code>_inbox/example-chat.md</code>.</p>
+<p>Главная снова должна открываться. Если после пуша GitHub всё ещё крутит старый «building», в Settings → Pages достаточно сохранить источник <code>main / (root)</code> ещё раз — очередь сборок иногда залипает.</p>
+  </div>
+</article>
+
+    <div class="post-comments">
+<script src="https://giscus.app/client.js"
+        data-repo="Aendrous/aendrous.github.io"
+        data-repo-id="R_kgDOPN63dA"
+        data-category="General"
+        data-category-id="DIC_kwDOPN63dM4C2twQ"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="ru"
+        crossorigin="anonymous"
+        async>
+</script>
+
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="container">Андрей Фетисов · GitHub Pages · без Jekyll, чтобы жил CDN ClubOfSisters</div>
+  </footer>
+
+</body>
+</html>
