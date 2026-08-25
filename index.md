@@ -11,16 +11,13 @@ title: Главная
 
 Эссе и разборы чужих книг и историй.
 
-{% assign reading = site.categories.прочитанное %}
-{% if reading and reading.size > 0 %}
 <ul>
-{% for post in reading %}
+{% for post in site.posts %}
+{% if post.categories contains "прочитанное" %}
   <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%d.%m.%Y" }}</li>
+{% endif %}
 {% endfor %}
 </ul>
-{% else %}
-<p>Пока нет постов с категорией <code>прочитанное</code>.</p>
-{% endif %}
 
 ## Романы и новеллы
 
