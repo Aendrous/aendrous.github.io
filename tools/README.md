@@ -1,10 +1,7 @@
-# Tools
+# tools/
 
-Сборка блога без Jekyll (из-за `.nojekyll` и CDN ClubOfSisters):
+Блог собирает **Jekyll** на GitHub Pages (`_config.yml`, `_posts/`, `index.md`).
 
-```bash
-python3 -m pip install markdown
-python3 tools/build_site.py
-```
+CDN игры — отдельный репозиторий: https://github.com/Aendrous/ClubOfSisters-cdn
 
-Статьи из чатов DeepSeek/GigaChat — локальный пайплайн `_writer/chat-to-post.md` (не публиковать как страницу сайта).
+`build_site.py` — legacy (до split CDN); не используется в CI.

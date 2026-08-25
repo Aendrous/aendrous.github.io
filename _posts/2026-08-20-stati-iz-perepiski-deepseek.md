@@ -13,9 +13,9 @@ tags: [github-pages, jekyll, deepseek, clubofsisters]
 
 Сайт — user GitHub Pages: репозиторий `Aendrous/aendrous.github.io`, ветка `main`, корень. Блог задуман как Jekyll: `_posts/`, `index.md`, тема Hacker.
 
-1 августа в корень положили пустой `.nojekyll`. Зачем: CDN визуальной новеллы (`/ClubOfSisters/stories/stories_catalog.json`, Yarn, OGG, обложки) GitHub иначе прогоняет через Jekyll. Для игры это смерть: каталог ловил 404, пока папки не опубликовали «как файлы».
+1 августа в корень положили пустой `.nojekyll`. Зачем: CDN визуальной новеллы (`https://aendrous.github.io/ClubOfSisters-cdn/stories/stories_catalog.json`, Yarn, OGG, обложки) GitHub иначе прогоняет через Jekyll. Для игры это смерть: каталог ловил 404, пока папки не опубликовали «как файлы».
 
-Побочный эффект: **Jekyll выключился целиком**. Pages без Jekyll ищет `index.html`. У блога был только `index.md`. Запрос на `/` → 404. `/ClubOfSisters/` жил, потому что там настоящий HTML.
+Побочный эффект: **Jekyll выключился целиком**. Pages без Jekyll ищет `index.html`. У блога был только `index.md`. Запрос на `/` → 404. `https://aendrous.github.io/ClubOfSisters-cdn/` жил, потому что там настоящий HTML.
 
 Отдельно последняя официальная сборка Pages с 6 августа зависла в статусе `building` (коммит с фанфик-ридером). Живая копия CDN на тот момент оставалась от 2 августа.
 

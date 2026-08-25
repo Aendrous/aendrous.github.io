@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Сборка статического HTML для GitHub Pages без Jekyll.
+"""LEGACY: локальная сборка HTML без Jekyll.
 
-На aendrous.github.io лежит `.nojekyll`, иначе Jekyll ломает CDN ClubOfSisters
-(JSON/OGG/Yarn) и корень сайта отдаёт 404: нет index.html, только index.md.
+CDN вынесен в Aendrous/ClubOfSisters-cdn. Основной сайт снова на Jekyll
+(удалён `.nojekyll`). Этот скрипт оставлен на случай локального превью.
 
 Запуск из корня репозитория:
 
@@ -153,7 +153,7 @@ def page_shell(title: str, inner: str, description: str | None = None) -> str:
       <nav class="site-nav">
         <a href="/">Статьи</a>
         <a href="/projects/clubofsisters/">ClubOfSisters</a>
-        <a href="/ClubOfSisters/">CDN новелл</a>
+        <a href="https://aendrous.github.io/ClubOfSisters-cdn/">CDN новелл</a>
         <a href="https://github.com/Aendrous/aendrous.github.io">GitHub</a>
       </nav>
     </div>
@@ -162,7 +162,7 @@ def page_shell(title: str, inner: str, description: str | None = None) -> str:
 {inner}
   </div>
   <footer class="site-footer">
-    <div class="container">{html.escape(SITE_AUTHOR)} · GitHub Pages · без Jekyll, чтобы жил CDN ClubOfSisters</div>
+    <div class="container">{html.escape(SITE_AUTHOR)} · GitHub Pages · Jekyll</div>
   </footer>
 {comments}
 </body>
@@ -245,7 +245,7 @@ def render_index(posts: list[Post]) -> None:
   <p>Свои книги, новеллы для игры и линия на ЛитМир. Флагман — «Бутон сакуры: Тайцзи в ритме хастла».</p>
   <ul>
     <li><a href="/2026/08/20/buton-sakury-roman-dlya-litmir-i-igry/"><strong>«Бутон сакуры» — роман ↔ игра ↔ ЛитМир</strong></a></li>
-    <li><a href="/ClubOfSisters/content/buton_sakury/manifest.json">Главы новеллы в ClubOfSisters</a></li>
+    <li><a href="https://aendrous.github.io/ClubOfSisters-cdn/content/buton_sakury/manifest.json">Главы новеллы в ClubOfSisters</a></li>
   </ul>
 </div>
 
@@ -255,7 +255,7 @@ def render_index(posts: list[Post]) -> None:
   <ul>
     <li><a href="/projects/clubofsisters/"><strong>Веха проекта — что сделано и что дальше</strong></a></li>
     <li><a href="https://github.com/Aendrous/ClubOfSisters-releases/releases/latest">Скачать APK</a></li>
-    <li><a href="/ClubOfSisters/">CDN каталога новелл</a></li>
+    <li><a href="https://aendrous.github.io/ClubOfSisters-cdn/">CDN каталога новелл</a></li>
   </ul>
 </div>
 
@@ -280,11 +280,11 @@ def render_project_page(md_path: Path) -> None:
 def render_404() -> None:
     inner = """
 <h1>404 — страницы нет</h1>
-<p>Корень сайта раньше отдавал 404, потому что GitHub Pages с <code>.nojekyll</code> ищет <code>index.html</code>, а Jekyll был выключен ради CDN ClubOfSisters.</p>
+<p>Страница не найдена. CDN игры: <a href="https://aendrous.github.io/ClubOfSisters-cdn/">ClubOfSisters-cdn</a>.</p>
 <ul>
   <li><a href="/">Главная со статьями</a></li>
   <li><a href="/projects/clubofsisters/">ClubOfSisters</a></li>
-  <li><a href="/ClubOfSisters/">CDN новелл (JSON / Yarn)</a></li>
+  <li><a href="https://aendrous.github.io/ClubOfSisters-cdn/">CDN новелл (JSON / Yarn)</a></li>
 </ul>
 """
     write(ROOT / "404.html", page_shell("404", inner))
