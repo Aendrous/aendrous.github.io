@@ -21,8 +21,8 @@ title: Главная
 - [CDN каталога новелл](https://aendrous.github.io/ClubOfSisters-cdn/)
 - [Ранний анонс Хранителя](/2026/07/25/clubofsisters-story-keeper/)
 
-## Последние статьи
+## Последние обновления
 
-{% for post in site.posts limit:8 %}
+{% for post in site.posts limit:3 %}
 - [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%d.%m.%Y" }}
 {% endfor %}
