@@ -1,12 +1,17 @@
-remote_theme: pages-themes/midnight 
-# Minima	Минималистичная, чистая, отлично читается	Для серьезных аналитических статей
-# Hacker	В стиле терминала, очень стильно	Для конспирологического вайба
-# Architect	С двумя навигационными панелями	Если статей будет много и нужны категории
-# Midnight	Темная тема, эффектные спецэффекты	Для мистической атмосферы
-# Chirpy	22 цветовые схемы, RSS, комментарии	Для профессионального блога
+# Темы GitHub Pages (официальные pages-themes — всегда с @v0.2.0):
+#   pages-themes/minima@v0.2.0
+#   pages-themes/hacker@v0.2.0
+#   pages-themes/architect@v0.2.0
+#   pages-themes/midnight@v0.2.0
+#   pages-themes/slate@v0.2.0
+#   pages-themes/cayman@v0.2.0
+# Chirpy — НЕ pages-themes: cotes2020/jekyll-theme-chirpy
+# После смены: commit + push в main.
+
+remote_theme: pages-themes/midnight@v0.2.0
 plugins:
 - jekyll-remote-theme
-# Настройки URL
+
 permalink: /:year/:month/:day/:title/
 title: Айтишник хочет пофилосовствовать
 description: Исследования о книгах, тайных обществах и скрытых смыслах
