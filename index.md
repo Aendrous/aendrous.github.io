@@ -7,6 +7,21 @@ title: Главная
 
 Публикации о расследованиях, элитах, книгах и скрытых смыслах. Плюс свои романы, новеллы для игры и живой Android-проект.
 
+## Прочитанное
+
+Эссе и разборы чужих книг и историй.
+
+{% assign reading = site.categories.прочитанное %}
+{% if reading and reading.size > 0 %}
+<ul>
+{% for post in reading %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%d.%m.%Y" }}</li>
+{% endfor %}
+</ul>
+{% else %}
+<p>Пока нет постов с категорией <code>прочитанное</code>.</p>
+{% endif %}
+
 ## Романы и новеллы
 
 - **[«Бутон сакуры» — роман ↔ ClubOfSisters ↔ ЛитМир](/2026/08/20/buton-sakury-roman-dlya-litmir-i-igry/)**
@@ -21,8 +36,10 @@ title: Главная
 - [CDN каталога новелл](https://aendrous.github.io/ClubOfSisters-cdn/)
 - [Ранний анонс Хранителя](/2026/07/25/clubofsisters-story-keeper/)
 
-## Последние обновления
+## Остальное
 
-{% for post in site.posts limit:3 %}
+{% for post in site.posts %}
+{% unless post.categories contains "прочитанное" %}
 - [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%d.%m.%Y" }}
+{% endunless %}
 {% endfor %}

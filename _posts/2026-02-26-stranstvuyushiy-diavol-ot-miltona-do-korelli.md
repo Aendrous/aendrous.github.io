@@ -2,7 +2,7 @@
 title: "Пять ликов странствующего дьявола: от Мильтона до Марии Корелли"
 date: 2026-02-26
 author: "Андрей Фетисов"
-categories: [дьявол, мистика, история]
+categories: [прочитанное, дьявол, мистика, история]
 tags: [мильтон, корелли, франс, восстание-ангелов, потерянный-рай, скорбь-сатаны]
 image: /assets/images/2026-02-26-stranstvuyushiy-diavol-ot-miltona-do-korelli/stranstvuyushiy-diavol-title.jpg
 ---
